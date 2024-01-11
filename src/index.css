@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;800&display=swap');
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #100f0f;
+  color: #fff;
+
+  @apply bg-gray-900
+}
+
+.hero{
+  box-shadow: 0 3px 700px rgba(45, 45, 45, 0.9) inset;
+ 
+}
+
+.img:hover{
+  filter: grayscale(70%);
+  cursor: pointer;
+}
